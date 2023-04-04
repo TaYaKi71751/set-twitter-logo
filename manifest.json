@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+		"name": "Change Twitter Logo Back",
+  "version": "1.0.0",
+  "description": "Change Back to Twitter Logo",
+  "content_scripts": [
+    {
+      "matches": ["*://twitter.com/*","*://mobile.twitter.com/*"],
+      "js": ["logo.js"],
+						"run_at": "document_start"
+    }
+  ]
+}
+
