@@ -6,11 +6,11 @@
 	* @rights-to Twitter
 	* Twitter Logo
 	* */
-const SVGText =	`
-<!-- __SVG_FILE_START__ -->
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 24.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+const SVGText =	(
+//<!-- __SVG_FILE_START__ -->
+//<?xml version="1.0" encoding="utf-8"?>
+//<!-- Generator: Adobe Illustrator 24.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+`<svg version="1.1" id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 248 204" style="enable-background:new 0 0 248 204;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#1D9BF0;}
@@ -24,9 +24,8 @@ const SVGText =	`
 		c-3.77,11.69-11.66,21.62-22.2,27.93c10.01-1.18,19.79-3.86,29-7.95C240.37,35.29,231.83,44.14,221.95,51.29z"/>
 </g>
 </svg>
-
-<!-- __SVG_FILE_END__ -->
-`;
+`);
+//<!-- __SVG_FILE_END__ -->
 	const setSVGLogo = async () => {
 		const homeLogoSelectors = ['/','/home'].map((e)=>`a[href="${e}"] > [class] > svg`);
 		const logo_s = `svg > g > pattern[patternContentUnits="objectBoundingBox"]`;
