@@ -6,6 +6,7 @@
 	* @rights-to Twitter
 	* Twitter Logo
 	* */
+let XLogoPath = undefined;
 const SVGText =	(
 //<!-- __SVG_FILE_START__ -->
 //<?xml version="1.0" encoding="utf-8"?>
@@ -31,11 +32,23 @@ const SVGText =	(
 		const logo_s = `svg > g > pattern[patternContentUnits="objectBoundingBox"]`;
 		const setSVG = (e) => {if(SVGText){e.outerHTML = `${SVGText}`;}};
 		const setSVGSize = (e) => {['width','height'].forEach((k)=>{e.setAttribute(k,'24');})};
-		document.querySelectorAll(logo_s).forEach((e)=>(setSVG(e)));
+		document.querySelectorAll(logo_s).forEach((e)=>{
+			if(!XLogoPath) { XLogoPath = e.querySelector("path").attributes.d.nodeValue; } setSVG(e);
+		});
 		homeLogoSelectors
 			.forEach((s)=>{
-				document.querySelectorAll(s).forEach((e)=>(setSVG(e)));
-				document.querySelectorAll(s).forEach((e)=>setSVGSize(e));
+				document.querySelectorAll(s).forEach((e)=>{
+					if(!XLogoPath){XLogoPath = e.querySelector("path").attributes.d.nodeValue;} setSVG(e);
+				});
+				document.querySelectorAll(s).forEach((e)=>{
+					if(!XLogoPath){XLogoPath = e.querySelector("path").attributes.d.nodeValue;} setSVGSize(e);
+				});
+//				console.log(XLogoPath);
+				if(XLogoPath) {
+					document.querySelectorAll(`path[d="${XLogoPath}"]`).forEach((e)=>{
+							setSVG(e);
+					})
+				}
 					});
 			};
 			const events = Object.keys(document.__proto__.__proto__).reduce((arr, event)=> { // https://stackoverflow.com/questions/39963850/how-can-i-add-an-event-listener-for-all-events-in-javascript-without-listing-the
