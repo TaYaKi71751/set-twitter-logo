@@ -30,6 +30,8 @@ const SVGText =	(
 	const setSVGLogo = async () => {
 		const homeLogoSelectors = ['/','/home'].map((e)=>`a[href="${e}"] > [class] > svg`);
 		const logo_s = `svg > g > pattern[patternContentUnits="objectBoundingBox"]`;
+		const placeholderSelector = '#placeholder > svg > g > path';
+		if(!XLogoPath) { XLogoPath = document.querySelector(placeholderSelector).attributes.d.nodeValue; }
 		const setSVG = (e) => {if(SVGText){e.outerHTML = `${SVGText}`;}};
 		const setSVGSize = (e) => {['width','height'].forEach((k)=>{e.setAttribute(k,'24');})};
 		document.querySelectorAll(logo_s).forEach((e)=>{
@@ -43,7 +45,7 @@ const SVGText =	(
 				document.querySelectorAll(s).forEach((e)=>{
 					if(!XLogoPath){XLogoPath = e.querySelector("path").attributes.d.nodeValue;} setSVGSize(e);
 				});
-//				console.log(XLogoPath);
+				console.log(XLogoPath);
 				if(XLogoPath) {
 					document.querySelectorAll(`path[d="${XLogoPath}"]`).forEach((e)=>{
 							setSVG(e);
