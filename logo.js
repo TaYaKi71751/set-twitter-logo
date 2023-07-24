@@ -45,7 +45,7 @@ const SVGText =	(
 				document.querySelectorAll(s).forEach((e)=>{
 					if(!XLogoPath){XLogoPath = e.querySelector("path").attributes.d.nodeValue;} setSVGSize(e);
 				});
-				console.log(XLogoPath);
+//				console.log(XLogoPath);
 				if(XLogoPath) {
 					document.querySelectorAll(`path[d="${XLogoPath}"]`).forEach((e)=>{
 							setSVG(e);
