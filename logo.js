@@ -53,11 +53,16 @@ const SVGText =	(
 				}
 					});
 			};
+	const setFavicon = async () => {
+		const favicon = document.querySelector('link[rel="shortcut icon"]');
+		favicon.setAttribute("href", favicon.href.replace('.3.ico','.ico'));
+	};
 			const events = Object.keys(document.__proto__.__proto__).reduce((arr, event)=> { // https://stackoverflow.com/questions/39963850/how-can-i-add-an-event-listener-for-all-events-in-javascript-without-listing-the
 				if(event.startsWith('on')) return [...arr, event.substr(2)];
 				return arr;
 			}, []);
 			events.forEach(async (event) => {
 				document.addEventListener(event,setSVGLogo);
+				document.addEventListener(event,setFavicon);
 			});
 		})();
