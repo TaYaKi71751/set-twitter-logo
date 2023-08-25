@@ -57,6 +57,16 @@ const SVGText =	(
 		const favicon = document.querySelector('link[rel="shortcut icon"]');
 		favicon.setAttribute("href", favicon.href.replace('.3.ico','.ico'));
 	};
+	const setTitle = async () => {
+		if(document.title.endsWith("X") && document.title.includes("/")){
+			document.title = document.title.substring(0,document.title.length - 1) + "Twitter";
+			if(document.location.pathname == '/' && document.title.includes("X")){
+				while(document.title.includes("X")) {
+					document.title = document.title.replace("X","Twitter");
+				}
+			}
+		}
+	};
 			const events = Object.keys(document.__proto__.__proto__).reduce((arr, event)=> { // https://stackoverflow.com/questions/39963850/how-can-i-add-an-event-listener-for-all-events-in-javascript-without-listing-the
 				if(event.startsWith('on')) return [...arr, event.substr(2)];
 				return arr;
@@ -64,5 +74,6 @@ const SVGText =	(
 			events.forEach(async (event) => {
 				document.addEventListener(event,setSVGLogo);
 				document.addEventListener(event,setFavicon);
+				document.addEventListener(event,setTitle);
 			});
 		})();
