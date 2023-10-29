@@ -68,6 +68,7 @@ const SVGText =	(
 				document.title = document.title.substring(0,document.title.length - 1) + "Twitter";
 			}
 		}
+		if(document.title == "X"){ document.title = "Twitter"; }
 	};
 			const events = Object.keys(document.__proto__.__proto__).reduce((arr, event)=> { // https://stackoverflow.com/questions/39963850/how-can-i-add-an-event-listener-for-all-events-in-javascript-without-listing-the
 				if(event.startsWith('on')) return [...arr, event.substr(2)];
