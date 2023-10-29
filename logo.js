@@ -59,11 +59,13 @@ const SVGText =	(
 	};
 	const setTitle = async () => {
 		if(document.title.endsWith("X") && document.title.includes("/")){
-			document.title = document.title.substring(0,document.title.length - 1) + "Twitter";
 			if(document.location.pathname == '/' && document.title.includes("X")){
 				while(document.title.includes("X")) {
 					document.title = document.title.replace("X","Twitter");
 				}
+			}
+			if(document.title.endsWith("X") && document.title.includes("/")){
+				document.title = document.title.substring(0,document.title.length - 1) + "Twitter";
 			}
 		}
 	};
