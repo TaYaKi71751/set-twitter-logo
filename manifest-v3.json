@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Change Twitter Logo Back",
   "description": "Change Back to Twitter Logo",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "permissions": [
     "tabs"
   ],
