@@ -3,9 +3,6 @@
   "name": "Change Twitter Logo Back",
   "description": "Change Back to Twitter Logo",
   "version": "1.0.9",
-  "permissions": [
-    "tabs"
-  ],
   "host_permissions": [
     "https://twitter.com",
     "https://mobile.twitter.com"
@@ -20,7 +17,7 @@
         "logo.js"
       ],
       "matches": [
-        "*://*twitter.com/*"
+        "*://twitter.com/*", "*://mobile.twitter.com/*"
       ],
       "run_at": "document_start"
     }
