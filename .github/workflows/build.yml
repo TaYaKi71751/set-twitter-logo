@@ -22,3 +22,21 @@ jobs:
         zipFilePath: 'build/extension.zip'
         crxFilePath: 'build/extension.crx'
         privateKey: ${{ secrets.CHROME_CRX_PRIVATE_KEY }}
+
+    
+    - uses: "marvinpinto/action-automatic-releases@latest"
+      with:
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        automatic_release_tag: "latest"
+        prerelease: true
+        title: "Development Build"
+        files: |
+          LICENSE*
+          build/*.zip
+          build/*.crx
+    - uses: actions/upload-artifact@v2
+      with:
+        name: package
+        path: |
+          build/*.zip
+          build/*.crx
