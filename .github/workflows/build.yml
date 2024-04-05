@@ -1,0 +1,24 @@
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    # pack zip and read manifest, can be reused in the following steps
+    - id: packExtensionDir
+      uses: cardinalby/webext-buildtools-pack-extension-dir-action@v1
+      with:
+        extensionDir: ./
+        zipFilePath: 'build/extension.zip'
+        
+    - uses: cardinalby/webext-buildtools-chrome-crx-action@v2
+      with:
+        # zip file made at the packExtensionDir step
+        zipFilePath: 'build/extension.zip'
+        crxFilePath: 'build/extension.crx'
+        privateKey: ${{ secrets.CHROME_CRX_PRIVATE_KEY }}
