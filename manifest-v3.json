@@ -5,7 +5,7 @@
   "description": "Change Back to Twitter Logo",
   "content_scripts": [
     {
-      "matches": ["*://twitter.com/*","*://mobile.twitter.com/*"],
+      "matches": ["*://twitter.com/*","*://mobile.twitter.com/*","*://x.com/*","*://mobile.x.com/*"],
       "js": ["logo.js"],
       "run_at": "document_start"
     }
