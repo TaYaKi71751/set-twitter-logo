@@ -1,5 +1,6 @@
 
 (async () => {
+	const target_hosts = ["[a-zA-Z0-9]+.twimg.com","twitter.com","x.com","[a-zA-Z0-9]+.twitter.com","[a-zA-Z0-9]+.x.com"];
 /*
 	* SVGText 
 	* @source https://about.twitter.com/en/who-we-are/brand-toolkit
@@ -54,8 +55,15 @@ const SVGText =	(
 					});
 			};
 	const setFavicon = async () => {
-		const favicon = document.querySelector('link[rel="shortcut icon"]');
-		favicon.setAttribute("href", favicon.href.replace('.3.ico','.ico'));
+		let favicon = document.querySelector('link[rel="shortcut icon"]');
+		if(favicon){
+			favicon.setAttribute("href", favicon.href.replace('.3.ico','.ico'));
+		} else {
+			favicon = document.createElement('link');
+			favicon.rel = "shortcut icon";
+			favicon.href = "https://abs.twimg.com/favicons/twitter.ico";
+			document.head.append(favicon);
+		}
 	};
 	const setTitle = async () => {
 		if(document.title.endsWith("X") && document.title.includes("/")){
@@ -74,9 +82,14 @@ const SVGText =	(
 				if(event.startsWith('on')) return [...arr, event.substr(2)];
 				return arr;
 			}, []);
-			events.forEach(async (event) => {
-				document.addEventListener(event,setSVGLogo);
-				document.addEventListener(event,setFavicon);
-				document.addEventListener(event,setTitle);
-			});
+			if(target_hosts.filter((target_host)=>(document.location.host.match(RegExp(target_host)))).length){
+				events.forEach(async (event) => {
+					document.addEventListener(event,setSVGLogo);
+					document.addEventListener(event,setFavicon);
+					document.addEventListener(event,setTitle);
+				});
+				setSVGLogo();
+				setFavicon();
+				setTitle();
+			}
 		})();
