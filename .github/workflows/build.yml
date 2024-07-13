@@ -7,19 +7,60 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+    - uses: actions/setup-node@main
+      with:
+        node-version: 16
+    # Update manifest
+    - run: |
+        cp manifest.json manifest-v3.json
+        node << EOF
+          const fs = require('fs');
+          let json = JSON.parse(fs.readFileSync('./manifest.json'));
+          json.manifest_version = 2;
+          fs.writeFileSync('./manifest-v2.json',JSON.stringify(json));
+          json.manifest_version = 3;
+          fs.writeFileSync('./manifest-v3.json',JSON.stringify(json));
+        EOF
+    - uses: corcc/publish@node
+      with:
+        TZ: 'Asia/Seoul'
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+        TASK_NAME: Update manifest*.json
     
+    # v2
+    - run: |
+        rm manifest.json
+        cp manifest-v2.json manifest.json
     # pack zip and read manifest, can be reused in the following steps
-    - id: packExtensionDir
+    - id: packExtensionDir-v2
       uses: cardinalby/webext-buildtools-pack-extension-dir-action@v1
       with:
         extensionDir: ./
-        zipFilePath: 'build/extension.zip'
+        zipFilePath: 'build/extension-v2.zip'
         
     - uses: cardinalby/webext-buildtools-chrome-crx-action@v2
       with:
         # zip file made at the packExtensionDir step
-        zipFilePath: 'build/extension.zip'
-        crxFilePath: 'build/extension.crx'
+        zipFilePath: 'build/extension-v2.zip'
+        crxFilePath: 'build/extension-v2.crx'
+        privateKey: ${{ secrets.CHROME_CRX_PRIVATE_KEY }}
+
+    #v3
+    - run: |
+        rm manifest.json
+        cp manifest-v3.json manifest.json
+    # pack zip and read manifest, can be reused in the following steps
+    - id: packExtensionDir-v3
+      uses: cardinalby/webext-buildtools-pack-extension-dir-action@v1
+      with:
+        extensionDir: ./
+        zipFilePath: 'build/extension-v3.zip'
+        
+    - uses: cardinalby/webext-buildtools-chrome-crx-action@v2
+      with:
+        # zip file made at the packExtensionDir step
+        zipFilePath: 'build/extension-v3.zip'
+        crxFilePath: 'build/extension-v3.crx'
         privateKey: ${{ secrets.CHROME_CRX_PRIVATE_KEY }}
 
     
