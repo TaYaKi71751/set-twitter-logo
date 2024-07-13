@@ -1,0 +1,1 @@
+{"manifest_version":3,"icons":{"128":"icon.png"},"name":"Change Twitter Logo Back","version":"1.0.11","description":"Change Back to Twitter Logo","content_scripts":[{"matches":["*://twitter.com/*","*://x.com/*","*://*.twimg.com/*"],"js":["logo.js"],"run_at":"document_start"}]}
