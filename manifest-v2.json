@@ -1,1 +1,1 @@
-{"manifest_version":2,"icons":{"128":"icon.png"},"name":"Change Twitter Logo Back","version":"1.0.12","description":"Change Back to Twitter Logo","content_scripts":[{"matches":["*://twitter.com/*","*://x.com/*","*://*.twimg.com/*"],"js":["logo.js"],"run_at":"document_start"}]}
+{"manifest_version":2,"icons":{"128":"icon.png"},"name":"Change Twitter Logo Back","version":"1.0.13","description":"Change Back to Twitter Logo","content_scripts":[{"matches":["*://twitter.com/*","*://x.com/*","*://*.twimg.com/*"],"js":["logo.js"],"run_at":"document_start"}]}
