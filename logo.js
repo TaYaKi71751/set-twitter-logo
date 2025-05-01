@@ -33,10 +33,14 @@ const SVGText =	(
 		const placeholderSelector = '#placeholder > svg > g > path';
 		const setSVG = (e) => {if(SVGText){e.outerHTML = `${SVGText}`;}};
 		if(!XLogoPath) { XLogoPath = document.querySelector(placeholderSelector).attributes.d.nodeValue; setSVG(document.querySelector(placeholderSelector)); }
+		
 	};
 	const setSVGLogo = async () => {
 		const homeLogoSelectors = ['/','/home'].map((e)=>`a[href="${e}"] > [class] > svg`);
 		const logo_s = `svg > g > pattern[patternContentUnits="objectBoundingBox"]`;
+		const premiumSignUpSelector = `a[href="/i/premium_sign_up"] > div > svg > g > path[d="${XLogoPath}"]`;
+		const notificationsSelector = `article[data-testid="notification"] > div > div > svg > g > path[d="${XLogoPath}"]`;
+		const topnavbarSelector = `div[data-testid="TopNavBar"] > div > div > div > div > div > div > div > svg > g > path[d="${XLogoPath}"]`;
 		const setSVG = (e) => {if(SVGText){e.outerHTML = `${SVGText}`;}};
 		const setSVGSize = (e) => {['width','height'].forEach((k)=>{e.setAttribute(k,'24');})};
 		document.querySelectorAll(logo_s).forEach((e)=>{
@@ -58,6 +62,16 @@ const SVGText =	(
 					if(e.outerHTML != SVGText) setSVGSize(e);
 				});
 					});
+		  document.querySelectorAll(premiumSignUpSelector).forEach((e)=>{
+					if(e.outerHTML != SVGText) setSVG(e);
+				});
+		  document.querySelectorAll(notificationsSelector).forEach((e)=>{
+					if(e.outerHTML != SVGText) setSVG(e);
+				});
+		  document.querySelectorAll(topnavbarSelector).forEach((e)=>{
+					if(e.outerHTML != SVGText) setSVG(e);
+				});
+		  
 			};
 	const setFavicon = async () => {
 		let favicon = document.querySelector('link[rel="shortcut icon"]');
