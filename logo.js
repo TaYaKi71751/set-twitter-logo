@@ -1,6 +1,6 @@
 
 (async () => {
-	const target_hosts = ["[a-zA-Z0-9]+.twimg.com","twitter.com","x.com","[a-zA-Z0-9]+.twitter.com","[a-zA-Z0-9]+.x.com"];
+	const target_hosts = ["[a-zA-Z0-9]+.twimg.com","twitter.com","x.com"];
 /*
 	* SVGText 
 	* @source https://about.twitter.com/en/who-we-are/brand-toolkit
@@ -27,31 +27,36 @@ const SVGText =	(
 </g>
 </svg>
 `);
+
 //<!-- __SVG_FILE_END__ -->
+	const getXLogoPath = async () => {
+		const placeholderSelector = '#placeholder > svg > g > path';
+		const setSVG = (e) => {if(SVGText){e.outerHTML = `${SVGText}`;}};
+		if(!XLogoPath) { XLogoPath = document.querySelector(placeholderSelector).attributes.d.nodeValue; setSVG(document.querySelector(placeholderSelector)); }
+	};
 	const setSVGLogo = async () => {
 		const homeLogoSelectors = ['/','/home'].map((e)=>`a[href="${e}"] > [class] > svg`);
 		const logo_s = `svg > g > pattern[patternContentUnits="objectBoundingBox"]`;
-		const placeholderSelector = '#placeholder > svg > g > path';
-		if(!XLogoPath) { XLogoPath = document.querySelector(placeholderSelector).attributes.d.nodeValue; }
 		const setSVG = (e) => {if(SVGText){e.outerHTML = `${SVGText}`;}};
 		const setSVGSize = (e) => {['width','height'].forEach((k)=>{e.setAttribute(k,'24');})};
 		document.querySelectorAll(logo_s).forEach((e)=>{
-			if(!XLogoPath) { XLogoPath = e.querySelector("path").attributes.d.nodeValue; } setSVG(e);
+			if(e.outerHTML != SVGText){ setSVG(e); }
 		});
 		homeLogoSelectors
 			.forEach((s)=>{
 				document.querySelectorAll(s).forEach((e)=>{
-					if(!XLogoPath){XLogoPath = e.querySelector("path").attributes.d.nodeValue;} setSVG(e);
+					if(e.outerHTML != SVGText) setSVG(e);
+				if(XLogoPath) {
+					const XLogos = document.querySelectorAll(`path[d="${XLogoPath}"]`);
+					const setSVG = (e) => {if(SVGText){e.outerHTML = `${SVGText}`;}};
+					XLogos.forEach((e)=>{
+						if(e.outerHTML!= SVGText) setSVG(e);
+					});
+				}
 				});
 				document.querySelectorAll(s).forEach((e)=>{
-					if(!XLogoPath){XLogoPath = e.querySelector("path").attributes.d.nodeValue;} setSVGSize(e);
+					if(e.outerHTML != SVGText) setSVGSize(e);
 				});
-//				console.log(XLogoPath);
-				if(XLogoPath) {
-					document.querySelectorAll(`path[d="${XLogoPath}"]`).forEach((e)=>{
-							setSVG(e);
-					})
-				}
 					});
 			};
 	const setFavicon = async () => {
@@ -83,10 +88,12 @@ const SVGText =	(
 				return arr;
 			}, []);
 			if(target_hosts.filter((target_host)=>(document.location.host.match(RegExp(target_host)))).length){
-				events.forEach(async (event) => {
-					document.addEventListener(event,setSVGLogo);
-					document.addEventListener(event,setFavicon);
-					document.addEventListener(event,setTitle);
+				events
+				.forEach(async (event) => {
+					document.addEventListener(event, getXLogoPath); 
+					document.addEventListener(event, setSVGLogo);
+					document.addEventListener(event, setFavicon);
+					document.addEventListener(event, setTitle);
 				});
 				setSVGLogo();
 				setFavicon();
