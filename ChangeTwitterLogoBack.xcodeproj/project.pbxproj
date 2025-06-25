@@ -1,0 +1,907 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FEC0B272E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2FEC0B262E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2FEC0B312E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2FEC0B302E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FEC0B282E0BBFB300BB6291 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FEC0AEC2E0BBFAD00BB6291 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FEC0B252E0BBFB300BB6291;
+			remoteInfo = "ChangeTwitterLogoBack Extension (iOS)";
+		};
+		2FEC0B322E0BBFB300BB6291 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FEC0AEC2E0BBFAD00BB6291 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FEC0B2F2E0BBFB300BB6291;
+			remoteInfo = "ChangeTwitterLogoBack Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2FEC0B5A2E0BBFB300BB6291 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2FEC0B272E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEC0B642E0BBFB300BB6291 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2FEC0B312E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2FEC0B082E0BBFB300BB6291 /* ChangeTwitterLogoBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeTwitterLogoBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEC0B1A2E0BBFB300BB6291 /* ChangeTwitterLogoBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeTwitterLogoBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEC0B262E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ChangeTwitterLogoBack Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEC0B302E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ChangeTwitterLogoBack Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2FEC0B552E0BBFB300BB6291 /* Exceptions for "Shared (App)" folder in "ChangeTwitterLogoBack (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Resources/Main.html",
+				Assets.xcassets,
+				Resources/Icon.png,
+				Resources/Script.js,
+				Resources/Style.css,
+				ViewController.swift,
+			);
+			target = 2FEC0B072E0BBFB300BB6291 /* ChangeTwitterLogoBack (iOS) */;
+		};
+		2FEC0B592E0BBFB300BB6291 /* Exceptions for "iOS (Extension)" folder in "ChangeTwitterLogoBack Extension (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2FEC0B252E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension (iOS) */;
+		};
+		2FEC0B5E2E0BBFB300BB6291 /* Exceptions for "iOS (App)" folder in "ChangeTwitterLogoBack (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2FEC0B072E0BBFB300BB6291 /* ChangeTwitterLogoBack (iOS) */;
+		};
+		2FEC0B5F2E0BBFB300BB6291 /* Exceptions for "Shared (App)" folder in "ChangeTwitterLogoBack (macOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Resources/Main.html",
+				Assets.xcassets,
+				Resources/Icon.png,
+				Resources/Script.js,
+				Resources/Style.css,
+				ViewController.swift,
+			);
+			target = 2FEC0B192E0BBFB300BB6291 /* ChangeTwitterLogoBack (macOS) */;
+		};
+		2FEC0B632E0BBFB300BB6291 /* Exceptions for "macOS (Extension)" folder in "ChangeTwitterLogoBack Extension (macOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2FEC0B2F2E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension (macOS) */;
+		};
+		2FEC0B682E0BBFB300BB6291 /* Exceptions for "Shared (Extension)" folder in "ChangeTwitterLogoBack Extension (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/_locales,
+				Resources/background.js,
+				Resources/content.js,
+				Resources/images,
+				Resources/manifest.json,
+				Resources/popup.css,
+				Resources/popup.html,
+				Resources/popup.js,
+				SafariWebExtensionHandler.swift,
+			);
+			target = 2FEC0B252E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension (iOS) */;
+		};
+		2FEC0B692E0BBFB300BB6291 /* Exceptions for "Shared (Extension)" folder in "ChangeTwitterLogoBack Extension (macOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/_locales,
+				Resources/background.js,
+				Resources/content.js,
+				Resources/images,
+				Resources/manifest.json,
+				Resources/popup.css,
+				Resources/popup.html,
+				Resources/popup.js,
+				SafariWebExtensionHandler.swift,
+			);
+			target = 2FEC0B2F2E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension (macOS) */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2FEC0AF02E0BBFAD00BB6291 /* Shared (App) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2FEC0B552E0BBFB300BB6291 /* Exceptions for "Shared (App)" folder in "ChangeTwitterLogoBack (iOS)" target */,
+				2FEC0B5F2E0BBFB300BB6291 /* Exceptions for "Shared (App)" folder in "ChangeTwitterLogoBack (macOS)" target */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		2FEC0AF92E0BBFB200BB6291 /* Shared (Extension) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2FEC0B682E0BBFB300BB6291 /* Exceptions for "Shared (Extension)" folder in "ChangeTwitterLogoBack Extension (iOS)" target */,
+				2FEC0B692E0BBFB300BB6291 /* Exceptions for "Shared (Extension)" folder in "ChangeTwitterLogoBack Extension (macOS)" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		2FEC0B0A2E0BBFB300BB6291 /* iOS (App) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2FEC0B5E2E0BBFB300BB6291 /* Exceptions for "iOS (App)" folder in "ChangeTwitterLogoBack (iOS)" target */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		2FEC0B1B2E0BBFB300BB6291 /* macOS (App) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		2FEC0B2A2E0BBFB300BB6291 /* iOS (Extension) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2FEC0B592E0BBFB300BB6291 /* Exceptions for "iOS (Extension)" folder in "ChangeTwitterLogoBack Extension (iOS)" target */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		2FEC0B342E0BBFB300BB6291 /* macOS (Extension) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2FEC0B632E0BBFB300BB6291 /* Exceptions for "macOS (Extension)" folder in "ChangeTwitterLogoBack Extension (macOS)" target */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FEC0B052E0BBFB300BB6291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEC0B172E0BBFB300BB6291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEC0B232E0BBFB300BB6291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEC0B2D2E0BBFB300BB6291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FEC0AEB2E0BBFAD00BB6291 = {
+			isa = PBXGroup;
+			children = (
+				2FEC0AF02E0BBFAD00BB6291 /* Shared (App) */,
+				2FEC0AF92E0BBFB200BB6291 /* Shared (Extension) */,
+				2FEC0B0A2E0BBFB300BB6291 /* iOS (App) */,
+				2FEC0B1B2E0BBFB300BB6291 /* macOS (App) */,
+				2FEC0B2A2E0BBFB300BB6291 /* iOS (Extension) */,
+				2FEC0B342E0BBFB300BB6291 /* macOS (Extension) */,
+				2FEC0B092E0BBFB300BB6291 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FEC0B092E0BBFB300BB6291 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FEC0B082E0BBFB300BB6291 /* ChangeTwitterLogoBack.app */,
+				2FEC0B1A2E0BBFB300BB6291 /* ChangeTwitterLogoBack.app */,
+				2FEC0B262E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension.appex */,
+				2FEC0B302E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FEC0B072E0BBFB300BB6291 /* ChangeTwitterLogoBack (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FEC0B5B2E0BBFB300BB6291 /* Build configuration list for PBXNativeTarget "ChangeTwitterLogoBack (iOS)" */;
+			buildPhases = (
+				2FEC0B042E0BBFB300BB6291 /* Sources */,
+				2FEC0B052E0BBFB300BB6291 /* Frameworks */,
+				2FEC0B062E0BBFB300BB6291 /* Resources */,
+				2FEC0B5A2E0BBFB300BB6291 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FEC0B292E0BBFB300BB6291 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2FEC0B0A2E0BBFB300BB6291 /* iOS (App) */,
+			);
+			name = "ChangeTwitterLogoBack (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "ChangeTwitterLogoBack (iOS)";
+			productReference = 2FEC0B082E0BBFB300BB6291 /* ChangeTwitterLogoBack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FEC0B192E0BBFB300BB6291 /* ChangeTwitterLogoBack (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FEC0B652E0BBFB300BB6291 /* Build configuration list for PBXNativeTarget "ChangeTwitterLogoBack (macOS)" */;
+			buildPhases = (
+				2FEC0B162E0BBFB300BB6291 /* Sources */,
+				2FEC0B172E0BBFB300BB6291 /* Frameworks */,
+				2FEC0B182E0BBFB300BB6291 /* Resources */,
+				2FEC0B642E0BBFB300BB6291 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FEC0B332E0BBFB300BB6291 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2FEC0B1B2E0BBFB300BB6291 /* macOS (App) */,
+			);
+			name = "ChangeTwitterLogoBack (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "ChangeTwitterLogoBack (macOS)";
+			productReference = 2FEC0B1A2E0BBFB300BB6291 /* ChangeTwitterLogoBack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FEC0B252E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FEC0B562E0BBFB300BB6291 /* Build configuration list for PBXNativeTarget "ChangeTwitterLogoBack Extension (iOS)" */;
+			buildPhases = (
+				2FEC0B222E0BBFB300BB6291 /* Sources */,
+				2FEC0B232E0BBFB300BB6291 /* Frameworks */,
+				2FEC0B242E0BBFB300BB6291 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2FEC0B2A2E0BBFB300BB6291 /* iOS (Extension) */,
+			);
+			name = "ChangeTwitterLogoBack Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "ChangeTwitterLogoBack Extension (iOS)";
+			productReference = 2FEC0B262E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2FEC0B2F2E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FEC0B602E0BBFB300BB6291 /* Build configuration list for PBXNativeTarget "ChangeTwitterLogoBack Extension (macOS)" */;
+			buildPhases = (
+				2FEC0B2C2E0BBFB300BB6291 /* Sources */,
+				2FEC0B2D2E0BBFB300BB6291 /* Frameworks */,
+				2FEC0B2E2E0BBFB300BB6291 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2FEC0B342E0BBFB300BB6291 /* macOS (Extension) */,
+			);
+			name = "ChangeTwitterLogoBack Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "ChangeTwitterLogoBack Extension (macOS)";
+			productReference = 2FEC0B302E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FEC0AEC2E0BBFAD00BB6291 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					2FEC0B072E0BBFB300BB6291 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					2FEC0B192E0BBFB300BB6291 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					2FEC0B252E0BBFB300BB6291 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					2FEC0B2F2E0BBFB300BB6291 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 2FEC0AEF2E0BBFAD00BB6291 /* Build configuration list for PBXProject "ChangeTwitterLogoBack" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FEC0AEB2E0BBFAD00BB6291;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2FEC0B092E0BBFB300BB6291 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FEC0B072E0BBFB300BB6291 /* ChangeTwitterLogoBack (iOS) */,
+				2FEC0B192E0BBFB300BB6291 /* ChangeTwitterLogoBack (macOS) */,
+				2FEC0B252E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension (iOS) */,
+				2FEC0B2F2E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FEC0B062E0BBFB300BB6291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEC0B182E0BBFB300BB6291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEC0B242E0BBFB300BB6291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEC0B2E2E0BBFB300BB6291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FEC0B042E0BBFB300BB6291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEC0B162E0BBFB300BB6291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEC0B222E0BBFB300BB6291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEC0B2C2E0BBFB300BB6291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FEC0B292E0BBFB300BB6291 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FEC0B252E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension (iOS) */;
+			targetProxy = 2FEC0B282E0BBFB300BB6291 /* PBXContainerItemProxy */;
+		};
+		2FEC0B332E0BBFB300BB6291 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FEC0B2F2E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension (macOS) */;
+			targetProxy = 2FEC0B322E0BBFB300BB6291 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FEC0B572E0BBFB300BB6291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84ML4G2PN8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ChangeTwitterLogoBack Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.TaYaKi71751.ChangeTwitterLogoBack.Extension;
+				PRODUCT_NAME = "ChangeTwitterLogoBack Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FEC0B582E0BBFB300BB6291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84ML4G2PN8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ChangeTwitterLogoBack Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.TaYaKi71751.ChangeTwitterLogoBack.Extension;
+				PRODUCT_NAME = "ChangeTwitterLogoBack Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FEC0B5C2E0BBFB300BB6291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84ML4G2PN8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ChangeTwitterLogoBack;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.TaYaKi71751.ChangeTwitterLogoBack;
+				PRODUCT_NAME = ChangeTwitterLogoBack;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FEC0B5D2E0BBFB300BB6291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84ML4G2PN8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ChangeTwitterLogoBack;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.TaYaKi71751.ChangeTwitterLogoBack;
+				PRODUCT_NAME = ChangeTwitterLogoBack;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FEC0B612E0BBFB300BB6291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/ChangeTwitterLogoBack.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84ML4G2PN8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ChangeTwitterLogoBack Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.TaYaKi71751.ChangeTwitterLogoBack.Extension;
+				PRODUCT_NAME = "ChangeTwitterLogoBack Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2FEC0B622E0BBFB300BB6291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/ChangeTwitterLogoBack.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84ML4G2PN8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ChangeTwitterLogoBack Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.TaYaKi71751.ChangeTwitterLogoBack.Extension;
+				PRODUCT_NAME = "ChangeTwitterLogoBack Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2FEC0B662E0BBFB300BB6291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/ChangeTwitterLogoBack.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84ML4G2PN8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ChangeTwitterLogoBack;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.TaYaKi71751.ChangeTwitterLogoBack;
+				PRODUCT_NAME = ChangeTwitterLogoBack;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2FEC0B672E0BBFB300BB6291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/ChangeTwitterLogoBack.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84ML4G2PN8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ChangeTwitterLogoBack;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.TaYaKi71751.ChangeTwitterLogoBack;
+				PRODUCT_NAME = ChangeTwitterLogoBack;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2FEC0B6A2E0BBFB300BB6291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 84ML4G2PN8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FEC0B6B2E0BBFB300BB6291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 84ML4G2PN8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FEC0AEF2E0BBFAD00BB6291 /* Build configuration list for PBXProject "ChangeTwitterLogoBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FEC0B6A2E0BBFB300BB6291 /* Debug */,
+				2FEC0B6B2E0BBFB300BB6291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FEC0B562E0BBFB300BB6291 /* Build configuration list for PBXNativeTarget "ChangeTwitterLogoBack Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FEC0B572E0BBFB300BB6291 /* Debug */,
+				2FEC0B582E0BBFB300BB6291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FEC0B5B2E0BBFB300BB6291 /* Build configuration list for PBXNativeTarget "ChangeTwitterLogoBack (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FEC0B5C2E0BBFB300BB6291 /* Debug */,
+				2FEC0B5D2E0BBFB300BB6291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FEC0B602E0BBFB300BB6291 /* Build configuration list for PBXNativeTarget "ChangeTwitterLogoBack Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FEC0B612E0BBFB300BB6291 /* Debug */,
+				2FEC0B622E0BBFB300BB6291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FEC0B652E0BBFB300BB6291 /* Build configuration list for PBXNativeTarget "ChangeTwitterLogoBack (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FEC0B662E0BBFB300BB6291 /* Debug */,
+				2FEC0B672E0BBFB300BB6291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FEC0AEC2E0BBFAD00BB6291 /* Project object */;
+}

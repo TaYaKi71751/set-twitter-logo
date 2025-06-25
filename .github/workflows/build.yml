@@ -1,25 +1,71 @@
 on:
   push:
   workflow_dispatch:
+env:
+  XCODE_MAC_SCHEME: "ChangeTwitterLogoBack (macOS)"
+  XCODE_IOS_SCHEME: "ChangeTwitterLogoBack (iOS)"
+  XCODE_PROJECT: "ChangeTwitterLogoBack.xcodeproj"
+  XCODE_APP_NAME: "ChangeTwitterLogoBack.app"
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-15
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-node@main
       with:
         node-version: 16
+    - run: |
+        mkdir -p build
+    - run: |
+        sudo xcode-select --install || echo "Xcode command line tools already installed"
+        sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer || echo "Xcode command line tools already selected"
+    - run: |
+        xcodebuild -project "${XCODE_PROJECT}" \
+          -scheme "${XCODE_IOS_SCHEME}" \
+          -configuration Release \
+          -destination 'platform=iOS Simulator,name=iPhone 16' \
+          -derivedDataPath 'build/ios' \
+          CODE_SIGN_IDENTITY="" \
+          CODE_SIGNING_REQUIRED=NO \
+          CODE_SIGN_ENTITLEMENTS="" \
+          clean build
+        cd "build/ios/Build/Products/Release-iphonesimulator/"
+        mkdir -p Payload
+        mv "${XCODE_APP_NAME}" Payload/Runner.app
+        zip -r ../../../../../build/ios.zip "Payload/Runner.app"
+        cd ../../../../../
+        mv build/ios.zip build/ios.ipa
+    - run: |
+        xcodebuild -project "${XCODE_PROJECT}" \
+          -scheme "${XCODE_MAC_SCHEME}" \
+          -configuration Release \
+          -destination 'platform=macOS' \
+          -derivedDataPath 'build/mac' \
+          CODE_SIGN_IDENTITY="" \
+          CODE_SIGNING_REQUIRED=NO \
+          CODE_SIGN_ENTITLEMENTS="" \
+          clean build
+        cd "build/mac/Build/Products/Release/"
+        zip -r ../../../../../build/mac.zip "${XCODE_APP_NAME}"
+        cd ../../../../../
     # Update manifest
     - run: |
-        cp manifest.json manifest-v3.json
+        cp "./Shared (Extension)/Resources/manifest.json" "./Shared (Extension)/Resources/manifest-v3.json"
         node << EOF
           const fs = require('fs');
-          let json = JSON.parse(fs.readFileSync('./manifest.json'));
+          let json = JSON.parse(fs.readFileSync('./Shared (Extension)/Resources/manifest.json'));
+          let message = JSON.parse(fs.readFileSync('./Shared (Extension)/Resources/_locales/en/messages.json'));
+          json.name = message['extension_name'].message;
+          json.description = message['extension_description'].message;
+          json.default_locale = undefined;
+          json.background = undefined;
+          json.action = undefined;
+          json.permissions = undefined;
           json.manifest_version = 2;
-          fs.writeFileSync('./manifest-v2.json',JSON.stringify(json));
+          fs.writeFileSync('./Shared (Extension)/Resources/manifest-v2.json',JSON.stringify(json));
           json.manifest_version = 3;
-          fs.writeFileSync('./manifest-v3.json',JSON.stringify(json));
+          fs.writeFileSync('./Shared (Extension)/Resources/manifest-v3.json',JSON.stringify(json));
         EOF
     - uses: corcc/publish@node
       with:
@@ -29,13 +75,13 @@ jobs:
     
     # v2
     - run: |
-        rm manifest.json
-        cp manifest-v2.json manifest.json
+        rm "./Shared (Extension)/Resources/manifest.json"
+        cp "./Shared (Extension)/Resources/manifest-v2.json" "./Shared (Extension)/Resources/manifest.json"
     # pack zip and read manifest, can be reused in the following steps
     - id: packExtensionDir-v2
       uses: cardinalby/webext-buildtools-pack-extension-dir-action@v1
       with:
-        extensionDir: ./
+        extensionDir: "./Shared (Extension)/Resources"
         zipFilePath: 'build/extension-v2.zip'
         
     - uses: cardinalby/webext-buildtools-chrome-crx-action@v2
@@ -47,13 +93,13 @@ jobs:
 
     #v3
     - run: |
-        rm manifest.json
-        cp manifest-v3.json manifest.json
+        rm "./Shared (Extension)/Resources/manifest.json"
+        cp "./Shared (Extension)/Resources/manifest-v3.json" "./Shared (Extension)/Resources/manifest.json"
     # pack zip and read manifest, can be reused in the following steps
     - id: packExtensionDir-v3
       uses: cardinalby/webext-buildtools-pack-extension-dir-action@v1
       with:
-        extensionDir: ./
+        extensionDir: "./Shared (Extension)/Resources"
         zipFilePath: 'build/extension-v3.zip'
         
     - uses: cardinalby/webext-buildtools-chrome-crx-action@v2
@@ -63,7 +109,6 @@ jobs:
         crxFilePath: 'build/extension-v3.crx'
         privateKey: ${{ secrets.CHROME_CRX_PRIVATE_KEY }}
 
-    
     - uses: "marvinpinto/action-automatic-releases@latest"
       with:
         repo_token: "${{ secrets.GITHUB_TOKEN }}"
@@ -72,6 +117,7 @@ jobs:
         title: "Development Build"
         files: |
           LICENSE*
+          build/ios.ipa
           build/*.zip
           build/*.crx
     - uses: actions/upload-artifact@v4
