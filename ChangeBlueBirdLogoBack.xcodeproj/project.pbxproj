@@ -7,46 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2FEC0B272E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2FEC0B262E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		2FEC0B312E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2FEC0B302E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2FAEE0E92E0CB8AF0090D26D /* ChangeBlueBirdLogoBack Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2FAEE0E82E0CB8AF0090D26D /* ChangeBlueBirdLogoBack Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2FAEE0F32E0CB8AF0090D26D /* ChangeBlueBirdLogoBack Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2FAEE0F22E0CB8AF0090D26D /* ChangeBlueBirdLogoBack Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2FEC0B282E0BBFB300BB6291 /* PBXContainerItemProxy */ = {
+		2FAEE0EA2E0CB8AF0090D26D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2FEC0AEC2E0BBFAD00BB6291 /* Project object */;
+			containerPortal = 2FAEE0AE2E0CB8AD0090D26D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2FEC0B252E0BBFB300BB6291;
-			remoteInfo = "ChangeTwitterLogoBack Extension (iOS)";
+			remoteGlobalIDString = 2FAEE0E72E0CB8AF0090D26D;
+			remoteInfo = "ChangeBlueBirdLogoBack Extension (iOS)";
 		};
-		2FEC0B322E0BBFB300BB6291 /* PBXContainerItemProxy */ = {
+		2FAEE0F42E0CB8AF0090D26D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2FEC0AEC2E0BBFAD00BB6291 /* Project object */;
+			containerPortal = 2FAEE0AE2E0CB8AD0090D26D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2FEC0B2F2E0BBFB300BB6291;
-			remoteInfo = "ChangeTwitterLogoBack Extension (macOS)";
+			remoteGlobalIDString = 2FAEE0F12E0CB8AF0090D26D;
+			remoteInfo = "ChangeBlueBirdLogoBack Extension (macOS)";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2FEC0B5A2E0BBFB300BB6291 /* Embed Foundation Extensions */ = {
+		2FAEE11C2E0CB8B00090D26D /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				2FEC0B272E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension.appex in Embed Foundation Extensions */,
+				2FAEE0E92E0CB8AF0090D26D /* ChangeBlueBirdLogoBack Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FEC0B642E0BBFB300BB6291 /* Embed Foundation Extensions */ = {
+		2FAEE1262E0CB8B00090D26D /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				2FEC0B312E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension.appex in Embed Foundation Extensions */,
+				2FAEE0F32E0CB8AF0090D26D /* ChangeBlueBirdLogoBack Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,14 +54,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2FEC0B082E0BBFB300BB6291 /* ChangeTwitterLogoBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeTwitterLogoBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FEC0B1A2E0BBFB300BB6291 /* ChangeTwitterLogoBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeTwitterLogoBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FEC0B262E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ChangeTwitterLogoBack Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FEC0B302E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ChangeTwitterLogoBack Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FAEE0CA2E0CB8AF0090D26D /* ChangeBlueBirdLogoBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeBlueBirdLogoBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FAEE0DC2E0CB8AF0090D26D /* ChangeBlueBirdLogoBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeBlueBirdLogoBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FAEE0E82E0CB8AF0090D26D /* ChangeBlueBirdLogoBack Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ChangeBlueBirdLogoBack Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FAEE0F22E0CB8AF0090D26D /* ChangeBlueBirdLogoBack Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ChangeBlueBirdLogoBack Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		2FEC0B552E0BBFB300BB6291 /* Exceptions for "Shared (App)" folder in "ChangeTwitterLogoBack (iOS)" target */ = {
+		2FAEE1172E0CB8B00090D26D /* Exceptions for "Shared (App)" folder in "ChangeBlueBirdLogoBack (iOS)" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"/Localized: Resources/Main.html",
@@ -71,23 +71,23 @@
 				Resources/Style.css,
 				ViewController.swift,
 			);
-			target = 2FEC0B072E0BBFB300BB6291 /* ChangeTwitterLogoBack (iOS) */;
+			target = 2FAEE0C92E0CB8AF0090D26D /* ChangeBlueBirdLogoBack (iOS) */;
 		};
-		2FEC0B592E0BBFB300BB6291 /* Exceptions for "iOS (Extension)" folder in "ChangeTwitterLogoBack Extension (iOS)" target */ = {
+		2FAEE11B2E0CB8B00090D26D /* Exceptions for "iOS (Extension)" folder in "ChangeBlueBirdLogoBack Extension (iOS)" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 2FEC0B252E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension (iOS) */;
+			target = 2FAEE0E72E0CB8AF0090D26D /* ChangeBlueBirdLogoBack Extension (iOS) */;
 		};
-		2FEC0B5E2E0BBFB300BB6291 /* Exceptions for "iOS (App)" folder in "ChangeTwitterLogoBack (iOS)" target */ = {
+		2FAEE1202E0CB8B00090D26D /* Exceptions for "iOS (App)" folder in "ChangeBlueBirdLogoBack (iOS)" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 2FEC0B072E0BBFB300BB6291 /* ChangeTwitterLogoBack (iOS) */;
+			target = 2FAEE0C92E0CB8AF0090D26D /* ChangeBlueBirdLogoBack (iOS) */;
 		};
-		2FEC0B5F2E0BBFB300BB6291 /* Exceptions for "Shared (App)" folder in "ChangeTwitterLogoBack (macOS)" target */ = {
+		2FAEE1212E0CB8B00090D26D /* Exceptions for "Shared (App)" folder in "ChangeBlueBirdLogoBack (macOS)" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"/Localized: Resources/Main.html",
@@ -97,16 +97,16 @@
 				Resources/Style.css,
 				ViewController.swift,
 			);
-			target = 2FEC0B192E0BBFB300BB6291 /* ChangeTwitterLogoBack (macOS) */;
+			target = 2FAEE0DB2E0CB8AF0090D26D /* ChangeBlueBirdLogoBack (macOS) */;
 		};
-		2FEC0B632E0BBFB300BB6291 /* Exceptions for "macOS (Extension)" folder in "ChangeTwitterLogoBack Extension (macOS)" target */ = {
+		2FAEE1252E0CB8B00090D26D /* Exceptions for "macOS (Extension)" folder in "ChangeBlueBirdLogoBack Extension (macOS)" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 2FEC0B2F2E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension (macOS) */;
+			target = 2FAEE0F12E0CB8AF0090D26D /* ChangeBlueBirdLogoBack Extension (macOS) */;
 		};
-		2FEC0B682E0BBFB300BB6291 /* Exceptions for "Shared (Extension)" folder in "ChangeTwitterLogoBack Extension (iOS)" target */ = {
+		2FAEE12A2E0CB8B00090D26D /* Exceptions for "Shared (Extension)" folder in "ChangeBlueBirdLogoBack Extension (iOS)" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Resources/_locales,
@@ -119,9 +119,9 @@
 				Resources/popup.js,
 				SafariWebExtensionHandler.swift,
 			);
-			target = 2FEC0B252E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension (iOS) */;
+			target = 2FAEE0E72E0CB8AF0090D26D /* ChangeBlueBirdLogoBack Extension (iOS) */;
 		};
-		2FEC0B692E0BBFB300BB6291 /* Exceptions for "Shared (Extension)" folder in "ChangeTwitterLogoBack Extension (macOS)" target */ = {
+		2FAEE12B2E0CB8B00090D26D /* Exceptions for "Shared (Extension)" folder in "ChangeBlueBirdLogoBack Extension (macOS)" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Resources/_locales,
@@ -134,25 +134,25 @@
 				Resources/popup.js,
 				SafariWebExtensionHandler.swift,
 			);
-			target = 2FEC0B2F2E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension (macOS) */;
+			target = 2FAEE0F12E0CB8AF0090D26D /* ChangeBlueBirdLogoBack Extension (macOS) */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		2FEC0AF02E0BBFAD00BB6291 /* Shared (App) */ = {
+		2FAEE0B22E0CB8AD0090D26D /* Shared (App) */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				2FEC0B552E0BBFB300BB6291 /* Exceptions for "Shared (App)" folder in "ChangeTwitterLogoBack (iOS)" target */,
-				2FEC0B5F2E0BBFB300BB6291 /* Exceptions for "Shared (App)" folder in "ChangeTwitterLogoBack (macOS)" target */,
+				2FAEE1172E0CB8B00090D26D /* Exceptions for "Shared (App)" folder in "ChangeBlueBirdLogoBack (iOS)" target */,
+				2FAEE1212E0CB8B00090D26D /* Exceptions for "Shared (App)" folder in "ChangeBlueBirdLogoBack (macOS)" target */,
 			);
 			path = "Shared (App)";
 			sourceTree = "<group>";
 		};
-		2FEC0AF92E0BBFB200BB6291 /* Shared (Extension) */ = {
+		2FAEE0BB2E0CB8AF0090D26D /* Shared (Extension) */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				2FEC0B682E0BBFB300BB6291 /* Exceptions for "Shared (Extension)" folder in "ChangeTwitterLogoBack Extension (iOS)" target */,
-				2FEC0B692E0BBFB300BB6291 /* Exceptions for "Shared (Extension)" folder in "ChangeTwitterLogoBack Extension (macOS)" target */,
+				2FAEE12A2E0CB8B00090D26D /* Exceptions for "Shared (Extension)" folder in "ChangeBlueBirdLogoBack Extension (iOS)" target */,
+				2FAEE12B2E0CB8B00090D26D /* Exceptions for "Shared (Extension)" folder in "ChangeBlueBirdLogoBack Extension (macOS)" target */,
 			);
 			explicitFolders = (
 				Resources/_locales,
@@ -161,31 +161,31 @@
 			path = "Shared (Extension)";
 			sourceTree = "<group>";
 		};
-		2FEC0B0A2E0BBFB300BB6291 /* iOS (App) */ = {
+		2FAEE0CC2E0CB8AF0090D26D /* iOS (App) */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				2FEC0B5E2E0BBFB300BB6291 /* Exceptions for "iOS (App)" folder in "ChangeTwitterLogoBack (iOS)" target */,
+				2FAEE1202E0CB8B00090D26D /* Exceptions for "iOS (App)" folder in "ChangeBlueBirdLogoBack (iOS)" target */,
 			);
 			path = "iOS (App)";
 			sourceTree = "<group>";
 		};
-		2FEC0B1B2E0BBFB300BB6291 /* macOS (App) */ = {
+		2FAEE0DD2E0CB8AF0090D26D /* macOS (App) */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "macOS (App)";
 			sourceTree = "<group>";
 		};
-		2FEC0B2A2E0BBFB300BB6291 /* iOS (Extension) */ = {
+		2FAEE0EC2E0CB8AF0090D26D /* iOS (Extension) */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				2FEC0B592E0BBFB300BB6291 /* Exceptions for "iOS (Extension)" folder in "ChangeTwitterLogoBack Extension (iOS)" target */,
+				2FAEE11B2E0CB8B00090D26D /* Exceptions for "iOS (Extension)" folder in "ChangeBlueBirdLogoBack Extension (iOS)" target */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
 		};
-		2FEC0B342E0BBFB300BB6291 /* macOS (Extension) */ = {
+		2FAEE0F62E0CB8AF0090D26D /* macOS (Extension) */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				2FEC0B632E0BBFB300BB6291 /* Exceptions for "macOS (Extension)" folder in "ChangeTwitterLogoBack Extension (macOS)" target */,
+				2FAEE1252E0CB8B00090D26D /* Exceptions for "macOS (Extension)" folder in "ChangeBlueBirdLogoBack Extension (macOS)" target */,
 			);
 			path = "macOS (Extension)";
 			sourceTree = "<group>";
@@ -193,28 +193,28 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2FEC0B052E0BBFB300BB6291 /* Frameworks */ = {
+		2FAEE0C72E0CB8AF0090D26D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FEC0B172E0BBFB300BB6291 /* Frameworks */ = {
+		2FAEE0D92E0CB8AF0090D26D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FEC0B232E0BBFB300BB6291 /* Frameworks */ = {
+		2FAEE0E52E0CB8AF0090D26D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FEC0B2D2E0BBFB300BB6291 /* Frameworks */ = {
+		2FAEE0EF2E0CB8AF0090D26D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -224,26 +224,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2FEC0AEB2E0BBFAD00BB6291 = {
+		2FAEE0AD2E0CB8AD0090D26D = {
 			isa = PBXGroup;
 			children = (
-				2FEC0AF02E0BBFAD00BB6291 /* Shared (App) */,
-				2FEC0AF92E0BBFB200BB6291 /* Shared (Extension) */,
-				2FEC0B0A2E0BBFB300BB6291 /* iOS (App) */,
-				2FEC0B1B2E0BBFB300BB6291 /* macOS (App) */,
-				2FEC0B2A2E0BBFB300BB6291 /* iOS (Extension) */,
-				2FEC0B342E0BBFB300BB6291 /* macOS (Extension) */,
-				2FEC0B092E0BBFB300BB6291 /* Products */,
+				2FAEE0B22E0CB8AD0090D26D /* Shared (App) */,
+				2FAEE0BB2E0CB8AF0090D26D /* Shared (Extension) */,
+				2FAEE0CC2E0CB8AF0090D26D /* iOS (App) */,
+				2FAEE0DD2E0CB8AF0090D26D /* macOS (App) */,
+				2FAEE0EC2E0CB8AF0090D26D /* iOS (Extension) */,
+				2FAEE0F62E0CB8AF0090D26D /* macOS (Extension) */,
+				2FAEE0CB2E0CB8AF0090D26D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2FEC0B092E0BBFB300BB6291 /* Products */ = {
+		2FAEE0CB2E0CB8AF0090D26D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2FEC0B082E0BBFB300BB6291 /* ChangeTwitterLogoBack.app */,
-				2FEC0B1A2E0BBFB300BB6291 /* ChangeTwitterLogoBack.app */,
-				2FEC0B262E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension.appex */,
-				2FEC0B302E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension.appex */,
+				2FAEE0CA2E0CB8AF0090D26D /* ChangeBlueBirdLogoBack.app */,
+				2FAEE0DC2E0CB8AF0090D26D /* ChangeBlueBirdLogoBack.app */,
+				2FAEE0E82E0CB8AF0090D26D /* ChangeBlueBirdLogoBack Extension.appex */,
+				2FAEE0F22E0CB8AF0090D26D /* ChangeBlueBirdLogoBack Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -251,167 +251,167 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2FEC0B072E0BBFB300BB6291 /* ChangeTwitterLogoBack (iOS) */ = {
+		2FAEE0C92E0CB8AF0090D26D /* ChangeBlueBirdLogoBack (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FEC0B5B2E0BBFB300BB6291 /* Build configuration list for PBXNativeTarget "ChangeTwitterLogoBack (iOS)" */;
+			buildConfigurationList = 2FAEE11D2E0CB8B00090D26D /* Build configuration list for PBXNativeTarget "ChangeBlueBirdLogoBack (iOS)" */;
 			buildPhases = (
-				2FEC0B042E0BBFB300BB6291 /* Sources */,
-				2FEC0B052E0BBFB300BB6291 /* Frameworks */,
-				2FEC0B062E0BBFB300BB6291 /* Resources */,
-				2FEC0B5A2E0BBFB300BB6291 /* Embed Foundation Extensions */,
+				2FAEE0C62E0CB8AF0090D26D /* Sources */,
+				2FAEE0C72E0CB8AF0090D26D /* Frameworks */,
+				2FAEE0C82E0CB8AF0090D26D /* Resources */,
+				2FAEE11C2E0CB8B00090D26D /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2FEC0B292E0BBFB300BB6291 /* PBXTargetDependency */,
+				2FAEE0EB2E0CB8AF0090D26D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				2FEC0B0A2E0BBFB300BB6291 /* iOS (App) */,
+				2FAEE0CC2E0CB8AF0090D26D /* iOS (App) */,
 			);
-			name = "ChangeTwitterLogoBack (iOS)";
+			name = "ChangeBlueBirdLogoBack (iOS)";
 			packageProductDependencies = (
 			);
-			productName = "ChangeTwitterLogoBack (iOS)";
-			productReference = 2FEC0B082E0BBFB300BB6291 /* ChangeTwitterLogoBack.app */;
+			productName = "ChangeBlueBirdLogoBack (iOS)";
+			productReference = 2FAEE0CA2E0CB8AF0090D26D /* ChangeBlueBirdLogoBack.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2FEC0B192E0BBFB300BB6291 /* ChangeTwitterLogoBack (macOS) */ = {
+		2FAEE0DB2E0CB8AF0090D26D /* ChangeBlueBirdLogoBack (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FEC0B652E0BBFB300BB6291 /* Build configuration list for PBXNativeTarget "ChangeTwitterLogoBack (macOS)" */;
+			buildConfigurationList = 2FAEE1272E0CB8B00090D26D /* Build configuration list for PBXNativeTarget "ChangeBlueBirdLogoBack (macOS)" */;
 			buildPhases = (
-				2FEC0B162E0BBFB300BB6291 /* Sources */,
-				2FEC0B172E0BBFB300BB6291 /* Frameworks */,
-				2FEC0B182E0BBFB300BB6291 /* Resources */,
-				2FEC0B642E0BBFB300BB6291 /* Embed Foundation Extensions */,
+				2FAEE0D82E0CB8AF0090D26D /* Sources */,
+				2FAEE0D92E0CB8AF0090D26D /* Frameworks */,
+				2FAEE0DA2E0CB8AF0090D26D /* Resources */,
+				2FAEE1262E0CB8B00090D26D /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2FEC0B332E0BBFB300BB6291 /* PBXTargetDependency */,
+				2FAEE0F52E0CB8AF0090D26D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				2FEC0B1B2E0BBFB300BB6291 /* macOS (App) */,
+				2FAEE0DD2E0CB8AF0090D26D /* macOS (App) */,
 			);
-			name = "ChangeTwitterLogoBack (macOS)";
+			name = "ChangeBlueBirdLogoBack (macOS)";
 			packageProductDependencies = (
 			);
-			productName = "ChangeTwitterLogoBack (macOS)";
-			productReference = 2FEC0B1A2E0BBFB300BB6291 /* ChangeTwitterLogoBack.app */;
+			productName = "ChangeBlueBirdLogoBack (macOS)";
+			productReference = 2FAEE0DC2E0CB8AF0090D26D /* ChangeBlueBirdLogoBack.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2FEC0B252E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension (iOS) */ = {
+		2FAEE0E72E0CB8AF0090D26D /* ChangeBlueBirdLogoBack Extension (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FEC0B562E0BBFB300BB6291 /* Build configuration list for PBXNativeTarget "ChangeTwitterLogoBack Extension (iOS)" */;
+			buildConfigurationList = 2FAEE1182E0CB8B00090D26D /* Build configuration list for PBXNativeTarget "ChangeBlueBirdLogoBack Extension (iOS)" */;
 			buildPhases = (
-				2FEC0B222E0BBFB300BB6291 /* Sources */,
-				2FEC0B232E0BBFB300BB6291 /* Frameworks */,
-				2FEC0B242E0BBFB300BB6291 /* Resources */,
+				2FAEE0E42E0CB8AF0090D26D /* Sources */,
+				2FAEE0E52E0CB8AF0090D26D /* Frameworks */,
+				2FAEE0E62E0CB8AF0090D26D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				2FEC0B2A2E0BBFB300BB6291 /* iOS (Extension) */,
+				2FAEE0EC2E0CB8AF0090D26D /* iOS (Extension) */,
 			);
-			name = "ChangeTwitterLogoBack Extension (iOS)";
+			name = "ChangeBlueBirdLogoBack Extension (iOS)";
 			packageProductDependencies = (
 			);
-			productName = "ChangeTwitterLogoBack Extension (iOS)";
-			productReference = 2FEC0B262E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension.appex */;
+			productName = "ChangeBlueBirdLogoBack Extension (iOS)";
+			productReference = 2FAEE0E82E0CB8AF0090D26D /* ChangeBlueBirdLogoBack Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		2FEC0B2F2E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension (macOS) */ = {
+		2FAEE0F12E0CB8AF0090D26D /* ChangeBlueBirdLogoBack Extension (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FEC0B602E0BBFB300BB6291 /* Build configuration list for PBXNativeTarget "ChangeTwitterLogoBack Extension (macOS)" */;
+			buildConfigurationList = 2FAEE1222E0CB8B00090D26D /* Build configuration list for PBXNativeTarget "ChangeBlueBirdLogoBack Extension (macOS)" */;
 			buildPhases = (
-				2FEC0B2C2E0BBFB300BB6291 /* Sources */,
-				2FEC0B2D2E0BBFB300BB6291 /* Frameworks */,
-				2FEC0B2E2E0BBFB300BB6291 /* Resources */,
+				2FAEE0EE2E0CB8AF0090D26D /* Sources */,
+				2FAEE0EF2E0CB8AF0090D26D /* Frameworks */,
+				2FAEE0F02E0CB8AF0090D26D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				2FEC0B342E0BBFB300BB6291 /* macOS (Extension) */,
+				2FAEE0F62E0CB8AF0090D26D /* macOS (Extension) */,
 			);
-			name = "ChangeTwitterLogoBack Extension (macOS)";
+			name = "ChangeBlueBirdLogoBack Extension (macOS)";
 			packageProductDependencies = (
 			);
-			productName = "ChangeTwitterLogoBack Extension (macOS)";
-			productReference = 2FEC0B302E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension.appex */;
+			productName = "ChangeBlueBirdLogoBack Extension (macOS)";
+			productReference = 2FAEE0F22E0CB8AF0090D26D /* ChangeBlueBirdLogoBack Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2FEC0AEC2E0BBFAD00BB6291 /* Project object */ = {
+		2FAEE0AE2E0CB8AD0090D26D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					2FEC0B072E0BBFB300BB6291 = {
+					2FAEE0C92E0CB8AF0090D26D = {
 						CreatedOnToolsVersion = 16.4;
 					};
-					2FEC0B192E0BBFB300BB6291 = {
+					2FAEE0DB2E0CB8AF0090D26D = {
 						CreatedOnToolsVersion = 16.4;
 					};
-					2FEC0B252E0BBFB300BB6291 = {
+					2FAEE0E72E0CB8AF0090D26D = {
 						CreatedOnToolsVersion = 16.4;
 					};
-					2FEC0B2F2E0BBFB300BB6291 = {
+					2FAEE0F12E0CB8AF0090D26D = {
 						CreatedOnToolsVersion = 16.4;
 					};
 				};
 			};
-			buildConfigurationList = 2FEC0AEF2E0BBFAD00BB6291 /* Build configuration list for PBXProject "ChangeTwitterLogoBack" */;
+			buildConfigurationList = 2FAEE0B12E0CB8AD0090D26D /* Build configuration list for PBXProject "ChangeBlueBirdLogoBack" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 2FEC0AEB2E0BBFAD00BB6291;
+			mainGroup = 2FAEE0AD2E0CB8AD0090D26D;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 2FEC0B092E0BBFB300BB6291 /* Products */;
+			productRefGroup = 2FAEE0CB2E0CB8AF0090D26D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2FEC0B072E0BBFB300BB6291 /* ChangeTwitterLogoBack (iOS) */,
-				2FEC0B192E0BBFB300BB6291 /* ChangeTwitterLogoBack (macOS) */,
-				2FEC0B252E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension (iOS) */,
-				2FEC0B2F2E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension (macOS) */,
+				2FAEE0C92E0CB8AF0090D26D /* ChangeBlueBirdLogoBack (iOS) */,
+				2FAEE0DB2E0CB8AF0090D26D /* ChangeBlueBirdLogoBack (macOS) */,
+				2FAEE0E72E0CB8AF0090D26D /* ChangeBlueBirdLogoBack Extension (iOS) */,
+				2FAEE0F12E0CB8AF0090D26D /* ChangeBlueBirdLogoBack Extension (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2FEC0B062E0BBFB300BB6291 /* Resources */ = {
+		2FAEE0C82E0CB8AF0090D26D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FEC0B182E0BBFB300BB6291 /* Resources */ = {
+		2FAEE0DA2E0CB8AF0090D26D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FEC0B242E0BBFB300BB6291 /* Resources */ = {
+		2FAEE0E62E0CB8AF0090D26D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FEC0B2E2E0BBFB300BB6291 /* Resources */ = {
+		2FAEE0F02E0CB8AF0090D26D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -421,28 +421,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2FEC0B042E0BBFB300BB6291 /* Sources */ = {
+		2FAEE0C62E0CB8AF0090D26D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FEC0B162E0BBFB300BB6291 /* Sources */ = {
+		2FAEE0D82E0CB8AF0090D26D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FEC0B222E0BBFB300BB6291 /* Sources */ = {
+		2FAEE0E42E0CB8AF0090D26D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FEC0B2C2E0BBFB300BB6291 /* Sources */ = {
+		2FAEE0EE2E0CB8AF0090D26D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -452,20 +452,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2FEC0B292E0BBFB300BB6291 /* PBXTargetDependency */ = {
+		2FAEE0EB2E0CB8AF0090D26D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2FEC0B252E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension (iOS) */;
-			targetProxy = 2FEC0B282E0BBFB300BB6291 /* PBXContainerItemProxy */;
+			target = 2FAEE0E72E0CB8AF0090D26D /* ChangeBlueBirdLogoBack Extension (iOS) */;
+			targetProxy = 2FAEE0EA2E0CB8AF0090D26D /* PBXContainerItemProxy */;
 		};
-		2FEC0B332E0BBFB300BB6291 /* PBXTargetDependency */ = {
+		2FAEE0F52E0CB8AF0090D26D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2FEC0B2F2E0BBFB300BB6291 /* ChangeTwitterLogoBack Extension (macOS) */;
-			targetProxy = 2FEC0B322E0BBFB300BB6291 /* PBXContainerItemProxy */;
+			target = 2FAEE0F12E0CB8AF0090D26D /* ChangeBlueBirdLogoBack Extension (macOS) */;
+			targetProxy = 2FAEE0F42E0CB8AF0090D26D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2FEC0B572E0BBFB300BB6291 /* Debug */ = {
+		2FAEE1192E0CB8B00090D26D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -473,7 +473,7 @@
 				DEVELOPMENT_TEAM = 84ML4G2PN8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "ChangeTwitterLogoBack Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "ChangeBlueBirdLogoBack Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -486,8 +486,8 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.TaYaKi71751.ChangeTwitterLogoBack.Extension;
-				PRODUCT_NAME = "ChangeTwitterLogoBack Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.TaYaKi71751.ChangeBlueBirdLogoBack.Extension;
+				PRODUCT_NAME = "ChangeBlueBirdLogoBack Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -496,7 +496,7 @@
 			};
 			name = Debug;
 		};
-		2FEC0B582E0BBFB300BB6291 /* Release */ = {
+		2FAEE11A2E0CB8B00090D26D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -504,7 +504,7 @@
 				DEVELOPMENT_TEAM = 84ML4G2PN8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "ChangeTwitterLogoBack Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "ChangeBlueBirdLogoBack Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -517,8 +517,8 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.TaYaKi71751.ChangeTwitterLogoBack.Extension;
-				PRODUCT_NAME = "ChangeTwitterLogoBack Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.TaYaKi71751.ChangeBlueBirdLogoBack.Extension;
+				PRODUCT_NAME = "ChangeBlueBirdLogoBack Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -528,7 +528,7 @@
 			};
 			name = Release;
 		};
-		2FEC0B5C2E0BBFB300BB6291 /* Debug */ = {
+		2FAEE11E2E0CB8B00090D26D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -538,7 +538,7 @@
 				DEVELOPMENT_TEAM = 84ML4G2PN8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = ChangeTwitterLogoBack;
+				INFOPLIST_KEY_CFBundleDisplayName = ChangeBlueBirdLogoBack;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -557,8 +557,8 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.TaYaKi71751.ChangeTwitterLogoBack;
-				PRODUCT_NAME = ChangeTwitterLogoBack;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.TaYaKi71751.ChangeBlueBirdLogoBack;
+				PRODUCT_NAME = ChangeBlueBirdLogoBack;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -566,7 +566,7 @@
 			};
 			name = Debug;
 		};
-		2FEC0B5D2E0BBFB300BB6291 /* Release */ = {
+		2FAEE11F2E0CB8B00090D26D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -576,7 +576,7 @@
 				DEVELOPMENT_TEAM = 84ML4G2PN8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = ChangeTwitterLogoBack;
+				INFOPLIST_KEY_CFBundleDisplayName = ChangeBlueBirdLogoBack;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -595,8 +595,8 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.TaYaKi71751.ChangeTwitterLogoBack;
-				PRODUCT_NAME = ChangeTwitterLogoBack;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.TaYaKi71751.ChangeBlueBirdLogoBack;
+				PRODUCT_NAME = ChangeBlueBirdLogoBack;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -605,17 +605,17 @@
 			};
 			name = Release;
 		};
-		2FEC0B612E0BBFB300BB6291 /* Debug */ = {
+		2FAEE1232E0CB8B00090D26D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/ChangeTwitterLogoBack.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/ChangeBlueBirdLogoBack.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 84ML4G2PN8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "ChangeTwitterLogoBack Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "ChangeBlueBirdLogoBack Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -628,8 +628,8 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.TaYaKi71751.ChangeTwitterLogoBack.Extension;
-				PRODUCT_NAME = "ChangeTwitterLogoBack Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.TaYaKi71751.ChangeBlueBirdLogoBack.Extension;
+				PRODUCT_NAME = "ChangeBlueBirdLogoBack Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -637,17 +637,17 @@
 			};
 			name = Debug;
 		};
-		2FEC0B622E0BBFB300BB6291 /* Release */ = {
+		2FAEE1242E0CB8B00090D26D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/ChangeTwitterLogoBack.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/ChangeBlueBirdLogoBack.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 84ML4G2PN8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "ChangeTwitterLogoBack Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "ChangeBlueBirdLogoBack Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -660,8 +660,8 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.TaYaKi71751.ChangeTwitterLogoBack.Extension;
-				PRODUCT_NAME = "ChangeTwitterLogoBack Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.TaYaKi71751.ChangeBlueBirdLogoBack.Extension;
+				PRODUCT_NAME = "ChangeBlueBirdLogoBack Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -669,18 +669,18 @@
 			};
 			name = Release;
 		};
-		2FEC0B662E0BBFB300BB6291 /* Debug */ = {
+		2FAEE1282E0CB8B00090D26D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "macOS (App)/ChangeTwitterLogoBack.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/ChangeBlueBirdLogoBack.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 84ML4G2PN8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = ChangeTwitterLogoBack;
+				INFOPLIST_KEY_CFBundleDisplayName = ChangeBlueBirdLogoBack;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -696,8 +696,8 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.TaYaKi71751.ChangeTwitterLogoBack;
-				PRODUCT_NAME = ChangeTwitterLogoBack;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.TaYaKi71751.ChangeBlueBirdLogoBack;
+				PRODUCT_NAME = ChangeBlueBirdLogoBack;
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -705,18 +705,18 @@
 			};
 			name = Debug;
 		};
-		2FEC0B672E0BBFB300BB6291 /* Release */ = {
+		2FAEE1292E0CB8B00090D26D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "macOS (App)/ChangeTwitterLogoBack.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/ChangeBlueBirdLogoBack.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 84ML4G2PN8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = ChangeTwitterLogoBack;
+				INFOPLIST_KEY_CFBundleDisplayName = ChangeBlueBirdLogoBack;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -732,8 +732,8 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.TaYaKi71751.ChangeTwitterLogoBack;
-				PRODUCT_NAME = ChangeTwitterLogoBack;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.TaYaKi71751.ChangeBlueBirdLogoBack;
+				PRODUCT_NAME = ChangeBlueBirdLogoBack;
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -741,7 +741,7 @@
 			};
 			name = Release;
 		};
-		2FEC0B6A2E0BBFB300BB6291 /* Debug */ = {
+		2FAEE12C2E0CB8B00090D26D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -803,7 +803,7 @@
 			};
 			name = Debug;
 		};
-		2FEC0B6B2E0BBFB300BB6291 /* Release */ = {
+		2FAEE12D2E0CB8B00090D26D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -860,52 +860,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2FEC0AEF2E0BBFAD00BB6291 /* Build configuration list for PBXProject "ChangeTwitterLogoBack" */ = {
+		2FAEE0B12E0CB8AD0090D26D /* Build configuration list for PBXProject "ChangeBlueBirdLogoBack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FEC0B6A2E0BBFB300BB6291 /* Debug */,
-				2FEC0B6B2E0BBFB300BB6291 /* Release */,
+				2FAEE12C2E0CB8B00090D26D /* Debug */,
+				2FAEE12D2E0CB8B00090D26D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FEC0B562E0BBFB300BB6291 /* Build configuration list for PBXNativeTarget "ChangeTwitterLogoBack Extension (iOS)" */ = {
+		2FAEE1182E0CB8B00090D26D /* Build configuration list for PBXNativeTarget "ChangeBlueBirdLogoBack Extension (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FEC0B572E0BBFB300BB6291 /* Debug */,
-				2FEC0B582E0BBFB300BB6291 /* Release */,
+				2FAEE1192E0CB8B00090D26D /* Debug */,
+				2FAEE11A2E0CB8B00090D26D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FEC0B5B2E0BBFB300BB6291 /* Build configuration list for PBXNativeTarget "ChangeTwitterLogoBack (iOS)" */ = {
+		2FAEE11D2E0CB8B00090D26D /* Build configuration list for PBXNativeTarget "ChangeBlueBirdLogoBack (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FEC0B5C2E0BBFB300BB6291 /* Debug */,
-				2FEC0B5D2E0BBFB300BB6291 /* Release */,
+				2FAEE11E2E0CB8B00090D26D /* Debug */,
+				2FAEE11F2E0CB8B00090D26D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FEC0B602E0BBFB300BB6291 /* Build configuration list for PBXNativeTarget "ChangeTwitterLogoBack Extension (macOS)" */ = {
+		2FAEE1222E0CB8B00090D26D /* Build configuration list for PBXNativeTarget "ChangeBlueBirdLogoBack Extension (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FEC0B612E0BBFB300BB6291 /* Debug */,
-				2FEC0B622E0BBFB300BB6291 /* Release */,
+				2FAEE1232E0CB8B00090D26D /* Debug */,
+				2FAEE1242E0CB8B00090D26D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FEC0B652E0BBFB300BB6291 /* Build configuration list for PBXNativeTarget "ChangeTwitterLogoBack (macOS)" */ = {
+		2FAEE1272E0CB8B00090D26D /* Build configuration list for PBXNativeTarget "ChangeBlueBirdLogoBack (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FEC0B662E0BBFB300BB6291 /* Debug */,
-				2FEC0B672E0BBFB300BB6291 /* Release */,
+				2FAEE1282E0CB8B00090D26D /* Debug */,
+				2FAEE1292E0CB8B00090D26D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2FEC0AEC2E0BBFAD00BB6291 /* Project object */;
+	rootObject = 2FAEE0AE2E0CB8AD0090D26D /* Project object */;
 }

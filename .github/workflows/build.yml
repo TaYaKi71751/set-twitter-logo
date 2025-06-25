@@ -2,10 +2,10 @@ on:
   push:
   workflow_dispatch:
 env:
-  XCODE_MAC_SCHEME: "ChangeTwitterLogoBack (macOS)"
-  XCODE_IOS_SCHEME: "ChangeTwitterLogoBack (iOS)"
-  XCODE_PROJECT: "ChangeTwitterLogoBack.xcodeproj"
-  XCODE_APP_NAME: "ChangeTwitterLogoBack.app"
+  XCODE_MAC_SCHEME: "ChangeBlueBirdLogoBack (macOS)"
+  XCODE_IOS_SCHEME: "ChangeBlueBirdLogoBack (iOS)"
+  XCODE_PROJECT: "ChangeBlueBirdLogoBack.xcodeproj"
+  XCODE_APP_NAME: "ChangeBlueBirdLogoBack.app"
 
 jobs:
   build:

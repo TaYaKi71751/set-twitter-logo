@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Shared (App)
 //
-//  Created by tayaki71751 on 2025/06/25.
+//  Created by tayaki71751 on 2025/06/26.
 //
 
 import WebKit
@@ -16,7 +16,7 @@ import SafariServices
 typealias PlatformViewController = NSViewController
 #endif
 
-let extensionBundleIdentifier = "io.github.TaYaKi71751.ChangeTwitterLogoBack.Extension"
+let extensionBundleIdentifier = "io.github.TaYaKi71751.ChangeBlueBirdLogoBack.Extension"
 
 class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMessageHandler {
 
