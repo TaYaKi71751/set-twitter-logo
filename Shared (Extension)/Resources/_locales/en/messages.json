@@ -1,10 +1,10 @@
 {
     "extension_name": {
         "message": "ChangeTwitterLogoBack",
-        "description": "The display name for the extension."
+        "description": "ChangeTwitterLogoBack"
     },
     "extension_description": {
-        "message": "This is ChangeTwitterLogoBack. You should tell us what your extension does here.",
-        "description": "Description of what the extension does."
+        "message": "This extension changes X logo to Twitter logo",
+        "description": "This extension changes X logo to Twitter logo"
     }
 }
