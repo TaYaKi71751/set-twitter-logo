@@ -6,6 +6,6 @@
 
 [Chrome Web Store](https://chromewebstore.google.com/detail/change-twitter-logo-back/gkeboiapkijhaagignnlkfeolpcidbkk)
 
-[Apple AppStore](https://apps.apple.com/us/app/changetwitterlogoback/id6747737139)
+[Apple AppStore](https://apps.apple.com/us/app/changebluebirdlogoback/id6747784220)
 
-[Testflight(Apple)](https://testflight.apple.com/join/BPcYAvqc)
+[Testflight(Apple)](https://testflight.apple.com/join/k15aMJCD)
