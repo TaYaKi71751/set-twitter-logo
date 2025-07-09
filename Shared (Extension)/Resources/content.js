@@ -31,7 +31,18 @@
      const getXLogoPath = async () => {
          const placeholderSelector = '#placeholder > svg > g > path';
          const setSVG = (e) => {if(SVGText){e.outerHTML = `${SVGText}`;}};
-         if(!XLogoPath) { XLogoPath = document.querySelector(placeholderSelector).attributes.d.nodeValue; setSVG(document.querySelector(placeholderSelector)); }
+         if(!XLogoPath) {
+            XLogoPath = document.querySelector(placeholderSelector).attributes.d.nodeValue;
+            setSVG(document.querySelector(placeholderSelector));
+             const events = Object.keys(document.__proto__.__proto__).reduce((arr, event)=> { // https://stackoverflow.com/questions/39963850/how-can-i-add-an-event-listener-for-all-events-in-javascript-without-listing-the
+                 if(event.startsWith('on')) return [...arr, event.substr(2)];
+                 return arr;
+             }, []);
+                events
+                    .forEach(async (event) => {
+                        document.removeEventListener(event, getXLogoPath);
+                    });
+        }
          
      };
      const setSVGLogo = async () => {
