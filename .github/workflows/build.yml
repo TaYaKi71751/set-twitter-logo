@@ -76,6 +76,7 @@ jobs:
     # v2
     - run: |
         rm "./Shared (Extension)/Resources/manifest.json"
+        rm -rf "./Shared (Extension)/Resources/_locales"
         cp "./Shared (Extension)/Resources/manifest-v2.json" "./Shared (Extension)/Resources/manifest.json"
     # pack zip and read manifest, can be reused in the following steps
     - id: packExtensionDir-v2
@@ -94,6 +95,7 @@ jobs:
     #v3
     - run: |
         rm "./Shared (Extension)/Resources/manifest.json"
+        rm -rf "./Shared (Extension)/Resources/_locales"
         cp "./Shared (Extension)/Resources/manifest-v3.json" "./Shared (Extension)/Resources/manifest.json"
     # pack zip and read manifest, can be reused in the following steps
     - id: packExtensionDir-v3
